@@ -69,7 +69,11 @@ If you want your plugin to be listed in the index, you should add as many fields
 
 Woodpecker's UI supports collapsing the output of single commands. Many plugins follow a similar structure to "regular" pipeline steps: They execute a fixed set of commands.
 
+<!-- markdownlint-disable no-space-in-code -->
+
 To make more clear to users which output belongs to which command, you can create those sections using a plugin as well: Print `▶  ` (two spaces) followed by the executed command.
+
+<!-- markdownlint-enable no-space-in-code -->
 
 Example:
 
